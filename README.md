@@ -1,59 +1,48 @@
-# project-createandminttoken
+# Token Creation and Minting Project for Module 3 AVAX
+## This AVAX project exemplifies the creation of a token using the ERC20 Contract in conjunction with OpenZeppelin's Library.
 
-This AVAX project demonstrates creating a token using ERC20 Contract with OpenZeppelin's Library.
+# Overview
+## Minting and Burning Tokens
+This project enables users to mint and burn their tokens using the available functions provided by OpenZeppelin.
 
-## Overview
+## Token Transfer between Accounts
+Users can seamlessly transfer tokens from one account to another using this project.
 
-### Able to Mint and Burn Tokens
+## Remix Default Workspace
+The default workspace in Remix appears under specific conditions:
+i. When Remix loads for the first time
+ii. Upon creating a new workspace using the 'Default' template
+iii. When no files exist in the File Explorer
 
-This project ables the user to mint and burn their own token using the OpenZeppelin's available functions.
+## This workspace comprises 3 directories:
 
-### Able to Transfer token from one account to another
-
-This project ables the user to transfer tokens from one account to another account.
-
-## Remix Default WorkSpace
-
-Remix default workspace is present when:
-i. Remix loads for the very first time
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
-
-This workspace contains 3 directories:
-
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
-
+'contracts': Hosting three contracts of increasing complexity.
+'scripts': Including four typescript files for contract deployment, explained below.
+'tests': Containing a Solidity test file for the 'Ballot' contract & a JS test file for the 'Storage' contract.
 SCRIPTS
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+The 'scripts' directory houses four typescript files facilitating the deployment of the 'Storage' contract through 'web3.js' and 'ethers.js' libraries.
 
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly
-in the file `deploy_with_ethers.ts` or `deploy_with_web3.ts`
+To deploy any other contract, simply update the contract's name from 'Storage' to the desired one and provide constructor arguments in either the deploy_with_ethers.ts or deploy_with_web3.ts file.
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
+In the 'tests' folder, a script with Mocha-Chai unit tests for the 'Storage' contract is available.
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
+To execute a script, right-click on the file name in the file explorer and select 'Run'. Ensure the Solidity file is compiled beforehand. The output from the script will appear in the Remix terminal.
 
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+Please note that Remix supports require/import for specific modules only, including ethers, web3, swarmgw, chai, multihashes, remix, and hardhat (for hardhat.ethers object/plugin). Unsupported modules will prompt an error: '<module_name> module require is not supported by Remix IDE'.
 
-## OpenZeppelin Documentation
+OpenZeppelin Documentation
+For further reference, consult the OpenZeppelin Documentation for ERC20 contracts: OpenZeppelin Documentation
 
-https://docs.openzeppelin.com/contracts/4.x/erc20
+## Executing the Program
+Access Remix Ethereum's website
+Import all files into the default workspace
+Compile the project
+Deploy the Contract
+# Author/s
+Contributor/s: Sally Segundo [@Hoshiyom1](https://github.com/Hoshiyom1)
 
-## Executing Program
 
-1. Run Remix Ethereum's [website](remix.ethereum.org)
-2. Import all the files in the default workspace
-3. Compile the project
-4. Deploy the Contract.
 
-## Author/s
 
-Contributor/s names and contact info:
 
-Dhanco Mendoza [@dhnxx](https://github.com/dhnxx)
