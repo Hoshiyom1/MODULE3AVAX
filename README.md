@@ -31,7 +31,7 @@ To execute a script, right-click on the file name in the file explorer and selec
 
 Please note that Remix supports require/import for specific modules only, including ethers, web3, swarmgw, chai, multihashes, remix, and hardhat (for hardhat.ethers object/plugin). Unsupported modules will prompt an error: '<module_name> module require is not supported by Remix IDE'.
 
-OpenZeppelin Documentation
+## OpenZeppelin Documentation
 For further reference, consult the OpenZeppelin Documentation for ERC20 contracts: OpenZeppelin Documentation
 
 ## Executing the Program
