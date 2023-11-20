@@ -35,10 +35,10 @@ Please note that Remix supports require/import for specific modules only, includ
 For further reference, consult the OpenZeppelin Documentation for ERC20 contracts: OpenZeppelin Documentation
 
 # Executing the Program
-Access Remix Ethereum's website.
-Import all files into the default workspace.
-Compile the project.
-Deploy the Contract.
+1.) Access Remix Ethereum's website.
+2.) Import all files into the default workspace.
+3.) Compile the project.
+4.) Deploy the Contract.
 
 # Author/s
 Contributor/s: Sally Segundo [@Hoshiyom1](https://github.com/Hoshiyom1)
